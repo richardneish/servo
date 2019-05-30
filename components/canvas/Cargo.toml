@@ -14,6 +14,7 @@ path = "lib.rs"
 webgl_backtrace = ["canvas_traits/webgl_backtrace"]
 raqote_backend = ["raqote"]
 azure_backend = ["azure"]
+no_wgl = ["offscreen_gl_context/no_wgl"]
 
 [dependencies]
 azure = {git = "https://github.com/servo/rust-azure", optional = true}

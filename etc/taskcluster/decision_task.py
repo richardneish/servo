@@ -379,7 +379,8 @@ def windows_arm64():
         .with_treeherder("Windows arm64")
         .with_script(
             "python mach build --dev --libsimpleservo \
-            --target aarch64-pc-windows-msvc --features raqote_backend",
+              --target aarch64-pc-windows-msvc \
+              --features raqote_backend,no_wgl",
         )
         .find_or_create("build.windows_arm64_dev." + CONFIG.task_id())
     )
