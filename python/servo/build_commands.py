@@ -294,7 +294,7 @@ class MachCommands(CommandBase):
             features += ["profilemozjs"]
 
         if with_raqote:
-            features += ["raqote"]
+            features += ["raqote_backend"]
 
         if without_wgl:
             features += ["no_wgl"]
