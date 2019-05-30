@@ -380,8 +380,8 @@ def windows_arm64():
         .with_script(
             "python mach build --dev --libsimpleservo \
               --target aarch64-pc-windows-msvc \
-              --features raqote_backend \
-              --features no_wgl",
+              --with-raqote \
+              --without-wgl",
         )
         .find_or_create("build.windows_arm64_dev." + CONFIG.task_id())
     )
