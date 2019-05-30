@@ -4054,15 +4054,6 @@ dependencies = [
 ]
 
 [[package]]
-name = "servo-fontconfig"
-version = "0.4.0"
-source = "registry+https://github.com/rust-lang/crates.io-index"
-dependencies = [
- "libc 0.2.53 (registry+https://github.com/rust-lang/crates.io-index)",
- "servo-fontconfig-sys 4.0.7 (registry+https://github.com/rust-lang/crates.io-index)",
-]
-
-[[package]]
 name = "servo-fontconfig-sys"
 version = "4.0.7"
 source = "registry+https://github.com/rust-lang/crates.io-index"
