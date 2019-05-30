@@ -2850,7 +2850,7 @@ source = "registry+https://github.com/rust-lang/crates.io-index"
 [[package]]
 name = "mozangle"
 version = "0.2.0"
-source = "git+https://github.com/kvark/mozangle?branch=update#433b36705543edb27bd763d9a2540781d46662f4"
+source = "git+https://github.com/servo/mozangle#88d2c0df0cc3a57968405225e27887bce3bc04a9"
 dependencies = [
  "cc 1.0.35 (registry+https://github.com/rust-lang/crates.io-index)",
  "gl_generator 0.10.0 (registry+https://github.com/rust-lang/crates.io-index)",
@@ -3804,7 +3804,7 @@ dependencies = [
  "mime 0.3.13 (registry+https://github.com/rust-lang/crates.io-index)",
  "mime_guess 2.0.0-alpha.6 (registry+https://github.com/rust-lang/crates.io-index)",
  "mitochondria 1.1.2 (registry+https://github.com/rust-lang/crates.io-index)",
- "mozangle 0.2.0 (git+https://github.com/kvark/mozangle?branch=update)",
+ "mozangle 0.2.0 (git+https://github.com/servo/mozangle)",
  "mozjs 0.11.0 (git+https://github.com/servo/rust-mozjs?rev=357d1db91e4e49c3f148fe05fdfae5f8f0834ca8)",
  "msg 0.0.1",
  "net_traits 0.0.1",
@@ -4025,7 +4025,7 @@ dependencies = [
  "libc 0.2.53 (registry+https://github.com/rust-lang/crates.io-index)",
  "libservo 0.0.1",
  "log 0.4.6 (registry+https://github.com/rust-lang/crates.io-index)",
- "mozangle 0.2.0 (git+https://github.com/kvark/mozangle?branch=update)",
+ "mozangle 0.2.0 (git+https://github.com/servo/mozangle)",
  "osmesa-src 0.1.0 (git+https://github.com/servo/osmesa-src)",
  "osmesa-sys 0.1.2 (registry+https://github.com/rust-lang/crates.io-index)",
  "rust-webvr 0.11.1 (registry+https://github.com/rust-lang/crates.io-index)",
@@ -5804,7 +5804,7 @@ dependencies = [
 "checksum mio-uds 0.6.7 (registry+https://github.com/rust-lang/crates.io-index)" = "966257a94e196b11bb43aca423754d87429960a768de9414f3691d6957abf125"
 "checksum miow 0.3.3 (registry+https://github.com/rust-lang/crates.io-index)" = "396aa0f2003d7df8395cb93e09871561ccc3e785f0acb369170e8cc74ddf9226"
 "checksum mitochondria 1.1.2 (registry+https://github.com/rust-lang/crates.io-index)" = "9de3eca27871df31c33b807f834b94ef7d000956f57aa25c5aed9c5f0aae8f6f"
-"checksum mozangle 0.2.0 (git+https://github.com/kvark/mozangle?branch=update)" = "<none>"
+"checksum mozangle 0.2.0 (git+https://github.com/servo/mozangle)" = "<none>"
 "checksum mozjs 0.11.0 (git+https://github.com/servo/rust-mozjs?rev=357d1db91e4e49c3f148fe05fdfae5f8f0834ca8)" = "<none>"
 "checksum mozjs_sys 0.66.1 (git+https://github.com/jdm/mozjs?branch=win-arm64)" = "<none>"
 "checksum msdos_time 0.1.6 (registry+https://github.com/rust-lang/crates.io-index)" = "aad9dfe950c057b1bfe9c1f2aa51583a8468ef2a5baba2ebbe06d775efeb7729"
